@@ -204,16 +204,15 @@ pandas中的merge函數是這種操作的主要切入點：
 ```
 import pandas as pd
 import numpy as np
-
 df1 = pd.DataFrame({'key': ['b', 'b', 'a', 'c', 'a', 'a', 'b'],
                     'data1': range(7)})
-
 df1
 
 df2 = pd.DataFrame({'key': ['a', 'b', 'd'],
                     'data2': range(3)})
 df2
 
+##將df1和df2合併在一起
 pd.merge(df1, df2)
 ```
 ### GroupBy Mechanics（分組機制）
@@ -231,5 +230,6 @@ df
 
 grouped = df['data1'].groupby(df['key1'])
 grouped
+##依據key分組，做data1的mean平均
 grouped.mean()
 ```
