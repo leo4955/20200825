@@ -372,7 +372,7 @@ sqrt
 exp
 
 ```
-### sqrt
+### sqrt(開平方)
 ```
 import numpy as np
 arr = np.arange(10)
@@ -393,6 +393,8 @@ import numpy as np
 arr = np.array([[1., 2., 3.], [4., 5., 6.]])
 # arr
 arr+arr
+# arr+arr是陣列加陣列
+
 ```
 ### 乘法運算
 ```
@@ -400,6 +402,7 @@ import numpy as np
 arr = np.array([[1., 2., 3.], [4., 5., 6.]])
 # arr
 arr*arr
+# arr*arr是陣列乘陣列
 ```
 ```
 import numpy as np
