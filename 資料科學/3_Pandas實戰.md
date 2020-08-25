@@ -59,6 +59,7 @@ obj.index  # like range(4)
 
 obj2 = pd.Series([4, 7, -5, 3], index=['d', 'b', 'a', 'c'])
 obj2
+
 obj2.index
 ```
 ## DataFrame資料型態
@@ -70,14 +71,18 @@ frame = pd.DataFrame(data)
 
 frame
 
+##head()括號內的數字3，代表前3筆資料(第0筆到第2筆資料)
 frame.head()
 
+## 將攔的順序對調
 pd.DataFrame(data, columns=['year', 'state', 'pop'])
+
 
 frame2 = pd.DataFrame(data, columns=['year', 'state', 'pop', 'debt'],
                       index=['one', 'two', 'three', 'four',
                              'five', 'six'])
 frame2
+##叫出所有欄
 frame2.columns
 
 frame2['state']
