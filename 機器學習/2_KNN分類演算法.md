@@ -6,6 +6,7 @@ https://ithelp.ithome.com.tw/articles/10197110
 ```
 ```
 K-Nearest Neighbor (KNN) Classification Algorithm
+參閱他人的簡報
 https://www.slideshare.net/palinanalytics/knearest-neighbor-knn-classification-algorithm
 ```
 ### sklearn.neighbors.KNeighborsClassifier
